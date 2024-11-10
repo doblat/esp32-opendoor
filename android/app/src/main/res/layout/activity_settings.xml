@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:autoSizeMaxTextSize="35dp"
+        android:autoSizeTextType="uniform"
+        android:background="#F5FFFA"
+        android:gravity="center"
+        android:text="配置" />
+
+    <TextView
+        android:id="@+id/textView_getPermission"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="app权限配置" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="（部分手机存在模糊位置权限选项，为保证app正常运行需要选择精确位置权限授权。）"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button_getPermission"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="申请权限" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="Lock连接配置" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mac地址：" />
+
+    <EditText
+        android:id="@+id/editText_macAddress"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Mac地址" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="密码：" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="密码" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="（密码错误时可以连接成功，但无法正常使用）" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="保存" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:text="Lock管理模式" />
+
+    <Button
+        android:id="@+id/button_runAdminMode"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="启动锁管理热点" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:text="关于" />
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="关于" />
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
